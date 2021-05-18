@@ -14,6 +14,7 @@ public class ServerUI extends Application {
 	static boolean islistening = false;
 
 	public static void main(String args[]) throws Exception {
+		System.out.println("JEN");
 		launch(args);
 	} // end main
 
