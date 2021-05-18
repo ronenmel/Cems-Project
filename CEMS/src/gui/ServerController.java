@@ -1,7 +1,6 @@
 package gui;
 
 import java.io.IOException;
-
 import Server.EchoServer;
 import Server.ServerLog;
 import Server.ServerUI;
@@ -21,7 +20,6 @@ public class ServerController {
 	public static ServerController instance;
 	public static int port;
 	private EchoServer echoServer;
-
 	@FXML
 	private TextArea txtTextArea;
 
@@ -92,7 +90,6 @@ public class ServerController {
 			}
 	
 		}
-
 		txtStatus.setText("ON");
 		btnStartServer.setDisable(true);
 		txtPort.setDisable(true);
@@ -101,7 +98,7 @@ public class ServerController {
 	}
 
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("ServerWindow.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/gui/ServerWindow.fxml"));
 		Scene scene = new Scene(root);
 		primaryStage.setTitle("CEMS server prototype");
 		primaryStage.setScene(scene);

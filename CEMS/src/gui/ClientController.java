@@ -2,7 +2,6 @@ package gui;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
 import Client.ChatClient;
 import Client.ClientUI;
 import javafx.collections.FXCollections;
@@ -26,7 +25,7 @@ public class ClientController implements Initializable {
 
 	private ObservableList<Test> TestList = FXCollections.observableArrayList();
 
-	@FXML
+	@FXML	
 	private Button btnSearch;
 
 	@FXML
@@ -136,7 +135,7 @@ public class ClientController implements Initializable {
 	}
 
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("ClientWindow.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/gui/ClientWindow.fxml"));
 		Scene scene = new Scene(root);
 		primaryStage.setTitle("CEMS Client Prototype");
 		primaryStage.setScene(scene);
