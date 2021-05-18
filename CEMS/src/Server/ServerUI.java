@@ -3,6 +3,7 @@ package Server;
 import java.io.IOException;
 import java.net.BindException;
 
+import gui.ServerController;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

@@ -1,9 +1,10 @@
-package Server;
+package gui;
 
 import java.io.IOException;
 
-import Client.ChatClient;
-import Client.ClientController;
+import Server.EchoServer;
+import Server.ServerLog;
+import Server.ServerUI;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

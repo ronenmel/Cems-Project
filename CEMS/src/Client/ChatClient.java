@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import common.ChatIF;
+import gui.ClientController;
 import logic.Test;
 import ocsf.client.AbstractClient;
 

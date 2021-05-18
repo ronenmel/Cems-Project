@@ -3,6 +3,8 @@ package Server;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import gui.ServerController;
+
 public class ServerLog {
 	static ServerController sc;
 

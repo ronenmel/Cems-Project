@@ -7,7 +7,8 @@ import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 
-import Server.ServerController;
+import gui.ClientController;
+import gui.ServerController;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
